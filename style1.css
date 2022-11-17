@@ -1,0 +1,53 @@
+span {
+    font-style: italic;
+}
+
+/* Контент */
+
+.top-container {
+    display: inline-block;
+    background-color: rgb(161, 189, 245);
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-top: 1px;
+}
+
+.list-container {
+    border-style: solid;
+    display: inline-block;
+    border-width: 0.5px;
+    padding-right: 20px;
+}
+
+.list-container>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-container {
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.img-container>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-html {
+    max-width: 70px;
+}
+
+/* Верхняя навигация */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+
+}
